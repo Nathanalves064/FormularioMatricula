@@ -1,3 +1,4 @@
+![Exemplo do projeto](sample.png)
 
 Página inspirada em um formulário de matrícula de uma escola.
 
