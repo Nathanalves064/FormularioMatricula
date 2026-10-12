@@ -26,6 +26,17 @@ input[type="date"]:focus-within {
   outline-offset: .1px;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
 input[type="date"]{
   position: relative;
 
@@ -48,10 +59,6 @@ input[type="date"]{
 
 select{
   background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
-}
-
-.adress .flex{
-  gap: 1.25rem;
 }
 
 .input-wrapper:has([disabled]){
